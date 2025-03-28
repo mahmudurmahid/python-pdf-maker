@@ -18,7 +18,7 @@ for index, row in df.iterrows():
 
     # lines on the page
     for y in range(20, 298, 10):
-        pdf.line(10, y, 200, y)
+        pdf.line(x1=10, y1=y, x2=200, y2=y)
 
     # footer on each new topic
     pdf.ln(265)
@@ -32,7 +32,7 @@ for index, row in df.iterrows():
     
     # lines on the page
     for y in range(20, 298, 10):
-        pdf.line(10, y, 200, y)
+        pdf.line(x1=10, y1=y, x2=200, y2=y)
 
         # footer on every page except new topic page
         pdf.ln(275)
