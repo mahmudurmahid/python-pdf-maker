@@ -25,6 +25,8 @@ This tool is useful for teachers, students, and professionals who want to create
   - [Modifying the Input File](#modifying-the-input-file)
 - [Testing](#testing)
 - [Credits](#credits)
+  - [Code](#code)
+  - [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -99,14 +101,12 @@ Each PDF page includes the following:
 
 ## 📁 Project Files
 
+```
 .
 ├── main.py # Main script that creates the PDF
 ├── topics.csv # Input file with topics and number of pages
 ├── requirements.txt # Python dependencies
 └── output.pdf # (Generated) Final PDF file with all content
-
-```
-
 ```
 
 ## 🚀 Installation & Usage
@@ -123,7 +123,11 @@ pip install -r requirements.txt
 ### How to Run
 
 Run the PDF generator by executing the main.py script:
+
+```bash
 python main.py
+```
+
 This will generate an output.pdf file in the same directory.
 
 ### Modifying the Input File
@@ -140,20 +144,20 @@ Save and rerun main.py.
 
 Manual testing was conducted:
 
-✔ Checked header and footer render properly on all topic pages.
-✔ Validated that CSV input is correctly parsed with pandas.
-✔ Verified horizontal lines are consistently spaced and aligned.
-✔ Ran script with various topics/page combinations, including edge cases (0 or 1 page).
-✔ Tested output file opens correctly in standard PDF readers.
+✔ - Checked header and footer render properly on all topic pages.
+✔ - Validated that CSV input is correctly parsed with pandas.
+✔ - Verified horizontal lines are consistently spaced and aligned.
+✔ - Ran script with various topics/page combinations, including edge cases (0 or 1 page).
+✔ - Tested output file opens correctly in standard PDF readers.
 
 ## 🧾 Credits
 
-Code
+### Code
 
 - Built using open-source libraries fpdf and pandas.
 - Structured and written for clarity, simplicity, and ease of customization.
 
-Acknowledgments
+### Acknowledgments
 
 - Inspired by real-world use cases in education and note-taking workflows.
 - Thanks to the maintainers of fpdf and pandas for powerful and accessible Python libraries.
