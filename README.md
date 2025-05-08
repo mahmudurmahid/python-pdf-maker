@@ -144,11 +144,11 @@ Save and rerun main.py.
 
 Manual testing was conducted:
 
-✔ - Checked header and footer render properly on all topic pages.
-✔ - Validated that CSV input is correctly parsed with pandas.
-✔ - Verified horizontal lines are consistently spaced and aligned.
-✔ - Ran script with various topics/page combinations, including edge cases (0 or 1 page).
-✔ - Tested output file opens correctly in standard PDF readers.
+- Checked header and footer render properly on all topic pages. ✔
+- Validated that CSV input is correctly parsed with pandas. ✔
+- Verified horizontal lines are consistently spaced and aligned. ✔
+- Ran script with various topics/page combinations, including edge cases (0 or 1 page). ✔
+- Tested output file opens correctly in standard PDF readers. ✔
 
 ## 🧾 Credits
 
