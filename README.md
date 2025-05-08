@@ -99,10 +99,61 @@ Each PDF page includes the following:
 
 ## 📁 Project Files
 
-```bash
 .
-├── main.py              # Main script that creates the PDF
-├── topics.csv           # Input file with topics and number of pages
-├── requirements.txt     # Python dependencies
-└── output.pdf           # (Generated) Final PDF file with all content
+├── main.py # Main script that creates the PDF
+├── topics.csv # Input file with topics and number of pages
+├── requirements.txt # Python dependencies
+└── output.pdf # (Generated) Final PDF file with all content
+
 ```
+
+```
+
+## 🚀 Installation & Usage
+
+### Prerequisites
+
+Ensure Python 3 is installed. Then install required packages using:
+
+```bash
+pip install -r requirements.txt
+
+```
+
+### How to Run
+
+Run the PDF generator by executing the main.py script:
+python main.py
+This will generate an output.pdf file in the same directory.
+
+### Modifying the Input File
+
+To customize your PDF:
+
+Open topics.csv.
+Add or modify rows with:
+Topic — the name of the section.
+Pages — number of pages to generate for this topic.
+Save and rerun main.py.
+
+## ✅ Testing
+
+Manual testing was conducted:
+
+✔ Checked header and footer render properly on all topic pages.
+✔ Validated that CSV input is correctly parsed with pandas.
+✔ Verified horizontal lines are consistently spaced and aligned.
+✔ Ran script with various topics/page combinations, including edge cases (0 or 1 page).
+✔ Tested output file opens correctly in standard PDF readers.
+
+## 🧾 Credits
+
+Code
+
+- Built using open-source libraries fpdf and pandas.
+- Structured and written for clarity, simplicity, and ease of customization.
+
+Acknowledgments
+
+- Inspired by real-world use cases in education and note-taking workflows.
+- Thanks to the maintainers of fpdf and pandas for powerful and accessible Python libraries.
